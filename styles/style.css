@@ -4,3 +4,21 @@
 .miami-font{
     font-family: 'Miama', sans-serif;                                         
 }
+
+body{
+    background: #000000;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+header{
+    margin: 20px 80px 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-items{
+    display: flex;
+}
