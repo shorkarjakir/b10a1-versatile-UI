@@ -76,8 +76,10 @@ nav ul {
     }
     .three-dots{
         display: block;
+        margin-right: 10px;
     }
-    .three-dots img{
-        
+    header{
+        margin: 20px 30px 20px;
     }
+   
 }
