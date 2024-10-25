@@ -9,7 +9,7 @@ body{
     background: #000000;
     max-width: 1440px;
     margin: 0 auto;
-    
+    font-family: Inter;
 }
 header{
     margin: 20px 80px 30px;
@@ -17,8 +17,67 @@ header{
 .navbar{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 .nav-items{
     display: flex;
+    color: white;
+    
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-container > ul li{
+    list-style-type: none;
+    
+}
+
+.nav-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.three-dots{
+    display: none;
+}
+
+.home-menu{
+    border-radius: 3rem;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
+
+}
+
+nav ul {
+    gap: 3rem;
+}
+.logo-text{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+
+
+/* For Mobile Device */
+@media screen and (max-width: 576px){
+    .nav-items{
+        display: none;
+        
+    }
+    .three-dots{
+        display: block;
+    }
+    .three-dots img{
+        
+    }
 }
