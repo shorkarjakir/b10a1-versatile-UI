@@ -529,6 +529,41 @@ td{
 .team-img6{
     background-image: url("/images/trainer6.png");
 }
+
+footer{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.get-started{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.copyright-section{
+    text-align: center;
+}
+
+.copyright-section > hr{
+    width: 80%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: auto;
+    
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 1rem;
+
+}
+
 /* For Mobile Device */
 @media screen and (max-width: 576px){
     .nav-items{
@@ -660,5 +695,11 @@ td{
         grid-template-columns: repeat(1, 1fr);
         margin: 0rem 2rem;
     }
-   
+    .footer-section{
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+    .copyright-section > hr{
+        margin-top: 0.8rem;
+    }
 }
