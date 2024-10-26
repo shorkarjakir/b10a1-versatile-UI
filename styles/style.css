@@ -273,6 +273,52 @@ nav ul {
     margin-right: 30px;
 }
 
+.run-extra-section{
+    display: flex;
+    margin: 100px 60px 30px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 30px;
+}
+
+.run-extra-heading{
+    width: 60%;
+    
+}
+
+.run-extra-head{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.run-extra-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.join-now-button{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.run-extra-img{
+    width: 40%;
+}
+
+.run-extra-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
 /* For Mobile Device */
 @media screen and (max-width: 576px){
     .nav-items{
@@ -359,6 +405,19 @@ nav ul {
     .habit-container img{
         width: 50%;
         height: 50%;
+    }
+
+    .run-extra-section{
+        flex-direction: column;
+    }
+
+    .run-extra-heading{
+        width: auto;
+    }
+
+    .run-extra-img{
+        width: auto;
+        margin-top: 60px;
     }
    
 }
