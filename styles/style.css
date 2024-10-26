@@ -448,6 +448,87 @@ td{
     margin-top: 0.7rem;
 }
 
+.meet-our-team-section{
+    margin: 5rem 8rem 2rem;
+}
+.team-heading{
+    text-align: center;
+}
+
+.team-head{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin: auto;
+}
+
+.team-dis{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.team-member{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    
+}
+
+.member-name{
+
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.5;
+    position: relative;
+    top: 65%;
+    margin-left: 1rem;
+}
+
+.member-abbrevation{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    position: relative;
+    top: 62%;
+    margin-left: 1rem;
+}
+
+.team-img-common{
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+     min-height: 50vh;
+     margin-top: 3rem;
+
+}
+
+.team-img-common img{
+    border-radius: 18px;
+    
+    
+}
+
+.team-img1{
+    background-image: url("/images/trainer1.png");
+    
+}
+.team-img2{
+    background-image: url("/images/trainer2.png");
+}
+.team-img3{
+    background-image: url("/images/trainer3.png");
+}
+.team-img4{
+    background-image: url("/images/trainer4.png");
+}
+.team-img5{
+    background-image: url("/images/trainer5.png");
+}
+.team-img6{
+    background-image: url("/images/trainer6.png");
+}
 /* For Mobile Device */
 @media screen and (max-width: 576px){
     .nav-items{
@@ -570,6 +651,14 @@ td{
 
     .bmi-calculate-button{
         padding: 10px 20px;
+    }
+
+    .meet-our-team-section{
+        margin: 0 auto;
+    }
+    .team-member{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0rem 2rem;
     }
    
 }
