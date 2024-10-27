@@ -511,23 +511,23 @@ td{
 }
 
 .team-img1{
-    background-image: url("../images/trainer1.png");
+    background-image: url("./images/trainer1.png");
     
 }
 .team-img2{
-    background-image: url("../images/trainer2.png");
+    background-image: url("./images/trainer2.png");
 }
 .team-img3{
-    background-image: url("../images/trainer3.png");
+    background-image: url("./images/trainer3.png");
 }
 .team-img4{
-    background-image: url("../images/trainer4.png");
+    background-image: url("./images/trainer4.png");
 }
 .team-img5{
-    background-image: url("../images/trainer5.png");
+    background-image: url("./images/trainer5.png");
 }
 .team-img6{
-    background-image: url("../images/trainer6.png");
+    background-image: url("./images/trainer6.png");
 }
 
 footer{
